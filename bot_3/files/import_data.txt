@@ -1,0 +1,4 @@
+1;surname;Фантиков;name;Александр;patronymic;Григорьевич;email;alex777@mail.ru;telephone;+7-911-555-45-45
+2;surname;Тушканчик;name;Павел;patronymic;Андреевич;email;tusha888@mail.ru;telephone;+7-911-444-66-67
+3;surname;Уваров;name;Даниил;patronymic;Сергеевич;email;Uvar78@mail.ru;telephone;+7-911-565-34-45
+4;surname;Каменская;name;Валерия;patronymic;Николаевна;email;kamen555@mail.ru;telephone;+7-921-666-44-12

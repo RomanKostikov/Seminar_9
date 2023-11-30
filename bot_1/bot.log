@@ -5,3 +5,73 @@
 2023-02-02 13:32:56,620 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
 2023-02-02 13:32:56,620 - telegram.ext._application - INFO - Application.stop() complete
 2023-02-02 13:32:58,801 - telegram.ext._application - INFO - Application started
+2023-02-19 18:11:01,664 - telegram.ext._application - INFO - Application started
+2023-02-19 18:11:57,820 - root - INFO - message from: Roman, text: 45 + 45 
+2023-02-19 18:16:08,431 - root - INFO - message from: Анастасия, text: 60 
+2023-02-19 18:16:15,963 - root - INFO - message from: Анастасия, text: 23 
+2023-02-19 18:16:32,938 - root - INFO - message from: Анастасия, text: 10 
+2023-02-19 18:16:37,323 - root - INFO - message from: Анастасия, text: 45 
+2023-02-19 18:16:40,363 - root - INFO - message from: Анастасия, text: 28 
+2023-02-19 18:16:44,156 - root - INFO - message from: Анастасия, text: 28 
+2023-02-19 18:16:49,933 - root - INFO - message from: Анастасия, text: 20 
+2023-02-19 18:17:51,865 - root - INFO - message from: Анастасия, text: 48 + 48 
+2023-02-19 18:34:10,583 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-02-19 18:34:10,584 - telegram.ext._application - INFO - Application.stop() complete
+2023-11-30 11:49:10,461 - telegram.ext._application - INFO - Application started
+2023-11-30 11:49:44,911 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 117, in button
+    await self.start_button(query_data=query_data)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 136, in start_button
+    await self.start(self.msg_update, self.msg_context)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 100, in start
+    self.current_user_id = update.message.from_user.id
+AttributeError: 'tuple' object has no attribute 'message'
+2023-11-30 11:49:50,819 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 119, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 268, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-11-30 11:50:03,836 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 121, in button
+    await self.GameTicTac(query_data=query_data)
+  File "c:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 225, in GameTicTac
+    self.current_gamer[self.msg_update.message.from_user.id] = 'tictaс'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-11-30 11:50:51,304 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:50:53,916 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:50:58,007 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:51:00,464 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:51:01,903 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:51:03,122 - root - INFO - message from: Roman, text: 22 
+2023-11-30 11:52:53,927 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-11-30 11:52:53,927 - telegram.ext._application - INFO - Application.stop() complete
+2023-11-30 11:55:00,960 - telegram.ext._application - INFO - Application started
+2023-11-30 11:55:15,394 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_application.py", line 1063, in process_update
+    await coroutine
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\new_venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 119, in button
+    await self.GameCandy(self.msg_update, self.msg_context)
+  File "C:\Users\roman\Desktop\Work for IT\GeekBrains\seminars\Python\Seminar_9\bot_1\bot.py", line 268, in GameCandy
+    self.current_gamer[update.message.from_user.id] = 'candy'
+AttributeError: 'tuple' object has no attribute 'message'
+2023-11-30 12:00:58,261 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-11-30 12:00:58,261 - telegram.ext._application - INFO - Application.stop() complete

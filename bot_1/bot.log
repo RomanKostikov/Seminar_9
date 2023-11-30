@@ -75,3 +75,9 @@ Traceback (most recent call last):
 AttributeError: 'tuple' object has no attribute 'message'
 2023-11-30 12:00:58,261 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
 2023-11-30 12:00:58,261 - telegram.ext._application - INFO - Application.stop() complete
+2023-11-30 12:19:09,235 - telegram.ext._application - INFO - Application started
+2023-11-30 12:20:55,615 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-11-30 12:20:55,615 - telegram.ext._application - INFO - Application.stop() complete
+2023-11-30 12:50:16,841 - telegram.ext._application - INFO - Application started
+2023-11-30 12:50:32,204 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-11-30 12:50:32,204 - telegram.ext._application - INFO - Application.stop() complete

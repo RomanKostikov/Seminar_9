@@ -1,2 +1,2 @@
 """Doc."""
-TOKEN = "YOUR TOKEN"
+TOKEN = "5899506735:AAGtU9VzrtuLLHgLpGaf3kgTEfF-ePqLTXY"
